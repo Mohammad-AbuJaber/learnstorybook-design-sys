@@ -1,5 +1,7 @@
-import { css } from '@emotion/react';
-import { color, typography } from './styles';
+import {css} from '@emotion/react';
+import {color, typography} from './styles';
+
+export const fontUrl = 'https://fonts.googleapis.com/css?family=Nunito+Sans:400,700,800,900';
 
 export const bodyStyles = css`
   font-family: ${typography.type.primary};
@@ -90,6 +92,7 @@ export const bodyStyles = css`
 
   &.ReactModal__Body--open {
     overflow: hidden;
+
     &.hide-intercom #intercom-container {
       display: none;
     }
@@ -105,6 +108,7 @@ export const bodyStyles = css`
     &--after-open {
       opacity: 1;
     }
+
     &--before-close {
       opacity: 0;
     }
