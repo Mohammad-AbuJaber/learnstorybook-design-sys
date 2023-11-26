@@ -1,0 +1,30 @@
+yarn run v1.22.19
+$ storybook build --output-dir C:\Users\AbuJaber\AppData\Local\Temp\chromatic--12252-J6yovtvmIDhD
+@storybook/cli v7.5.3
+
+info => Cleaning outputDir: C:\Users\AbuJaber\AppData\Local\Temp\chromatic--12252-J6yovtvmIDhD
+info => Loading presets
+info => Building manager..
+info => Manager built (322 ms)
+info => Building preview..
+info => Copying static files: F:\Mohammad\BZU\4th year\Foothill Internship\Storybook\Tutorial\learnstorybook-design-system\node_modules\@storybook\manager\static at C:\Users\AbuJaber\AppData\Local\Temp\chromatic--12252-J6yovtvmIDhD\sb-common-assets
+[36mvite v4.3.9 [32mbuilding for production...[36m[39m
+
+./sb-common-assets/fonts.css doesn't exist at build time, it will remain unchanged to be resolved at runtime
+transforming...
+[32m✓[39m 22 modules transformed.
+[32m✓ built in 7.40s[39m
+[31m[vite:build-import-analysis] Parse error @:9:18[39m
+file: [36mF:/Mohammad/BZU/4th year/Foothill Internship/Storybook/Tutorial/learnstorybook-design-system/.storybook/preview.js:11:20[39m
+[33m 9:             <>
+10:                 <Global styles={GlobalStyle}/>
+11:                 <Story/>
+                        ^
+12:             </>
+13:         ),[39m
+=> Failed to build the preview
+Error: Parse error @:9:18
+    at parse$e (file:///F:/Mohammad/BZU/4th%20year/Foothill%20Internship/Storybook/Tutorial/learnstorybook-design-system/node_modules/vite/dist/node/chunks/dep-e8f070e8.js:16327:355)
+    at Object.transform (file:///F:/Mohammad/BZU/4th%20year/Foothill%20Internship/Storybook/Tutorial/learnstorybook-design-system/node_modules/vite/dist/node/chunks/dep-e8f070e8.js:45075:27)
+[?25l[2K[1G[36m?[39m [1mWould you like to help improve Storybook by sending anonymous crash reports?[22m [90m»[39m [90m(Y/n)[39merror Command failed with exit code 1.
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
